@@ -1,21 +1,33 @@
 ## Структура проекта
 
+**Основные каталоги:**
+
+```
 public/
 ├── favicon.ico
 ├── index.html
 └── pwa-assets/
 src/
 ├── components/
-│ ├── TaskList/
-│ └── AddTask/
+│   ├── TaskList/
+│   └── AddTask/
 ├── utils/
 ├── assets/
 ├── App.jsx
 ├── main.jsx
 └── index.css
+```
 
-_Конфиги:_ `vite.config.js`, `.eslintrc.json`, `.gitignore`  
-_Зависимости:_ `package.json`, `package-lock.json`
+**Конфигурация:**
+
+- `vite.config.js`
+- `.eslintrc.json`
+- `.gitignore`
+
+**Зависимости:**
+
+- `package.json`
+- `package-lock.json`
 
 =======
 
