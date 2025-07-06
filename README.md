@@ -1,37 +1,21 @@
 ## Структура проекта
 
-todo-app/
-│
-├── public/ # Статические файлы
-│ ├── favicon.ico # Иконка приложения
-│ ├── index.html # Основной HTML-шаблон
-│ └── pwa-assets/ # Файлы для PWA
-│ ├── android-chrome-\*.png
-│ └── site.webmanifest
-│
-├── src/ # Исходный код
-│ ├── components/ # React-компоненты
-│ │ ├── TaskList/ # Список задач
-│ │ │ ├── index.jsx
-│ │ │ └── styles.css
-│ │ └── AddTask/ # Форма добавления
-│ │
-│ ├── utils/ # Вспомогательные функции
-│ │ └── storage.js # Работа с localStorage
-│ │
-│ ├── assets/ # Ресурсы
-│ │ └── react.svg # Логотип React
-│ │
-│ ├── App.jsx # Корневой компонент
-│ ├── main.jsx # Точка входа
-│ └── index.css # Глобальные стили
-│
-├── vite.config.js # Конфигурация Vite
-├── .eslintrc.json # Настройки ESLint
-├── .gitignore # Игнорируемые файлы
-│
-├── package.json # Зависимости
-└── package-lock.json # Точные версии
+public/
+├── favicon.ico
+├── index.html
+└── pwa-assets/
+src/
+├── components/
+│ ├── TaskList/
+│ └── AddTask/
+├── utils/
+├── assets/
+├── App.jsx
+├── main.jsx
+└── index.css
+
+_Конфиги:_ `vite.config.js`, `.eslintrc.json`, `.gitignore`  
+_Зависимости:_ `package.json`, `package-lock.json`
 
 =======
 
