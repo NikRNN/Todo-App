@@ -1,38 +1,37 @@
 ## Структура проекта
 
 todo-app/
-├── 📁 public/ # Static assets
-│ ├── favicon.ico # App icon
-│ ├── index.html # Main HTML template
-│ └── pwa-assets/ # PWA files
+│
+├── public/ # Статические файлы
+│ ├── favicon.ico # Иконка приложения
+│ ├── index.html # Основной HTML-шаблон
+│ └── pwa-assets/ # Файлы для PWA
 │ ├── android-chrome-\*.png
 │ └── site.webmanifest
 │
-├── 📁 src/ # Source code
-│ ├── 🧩 components/ # React components
-│ │ ├── TaskList/ # Task list component
-│ │ │ ├── index.jsx # Component logic
-│ │ │ └── styles.css # Component styles
-│ │ └── AddTask/ # Add task form
+├── src/ # Исходный код
+│ ├── components/ # React-компоненты
+│ │ ├── TaskList/ # Список задач
+│ │ │ ├── index.jsx
+│ │ │ └── styles.css
+│ │ └── AddTask/ # Форма добавления
 │ │
-│ ├── 🛠️ utils/ # Utilities
-│ │ └── storage.js # localStorage wrapper
+│ ├── utils/ # Вспомогательные функции
+│ │ └── storage.js # Работа с localStorage
 │ │
-│ ├── 🖼️ assets/ # Assets
-│ │ └── react.svg # React logo
+│ ├── assets/ # Ресурсы
+│ │ └── react.svg # Логотип React
 │ │
-│ ├── App.jsx # Root component
-│ ├── main.jsx # Entry point
-│ └── index.css # Global styles
+│ ├── App.jsx # Корневой компонент
+│ ├── main.jsx # Точка входа
+│ └── index.css # Глобальные стили
 │
-├── ⚙️ Config files
-│ ├── vite.config.js # Vite config
-│ ├── .eslintrc.json # ESLint config
-│ └── .gitignore # Ignored files
+├── vite.config.js # Конфигурация Vite
+├── .eslintrc.json # Настройки ESLint
+├── .gitignore # Игнорируемые файлы
 │
-└── 📦 Package files
-├── package.json # Dependencies (React 19 + Vite 7)
-└── package-lock.json # Exact versions
+├── package.json # Зависимости
+└── package-lock.json # Точные версии
 
 =======
 
