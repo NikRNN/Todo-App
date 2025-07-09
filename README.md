@@ -18,17 +18,6 @@ src/
 └── index.css
 ```
 
-**Конфигурация:**
-
-- `vite.config.js`
-- `.eslintrc.json`
-- `.gitignore`
-
-**Зависимости:**
-
-- `package.json`
-- `package-lock.json`
-
 =======
 
 # ToDo App (Vite + React)
