@@ -3,19 +3,28 @@
 **Основные каталоги:**
 
 ```
-public/
-├── favicon.ico
+├── public/
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── manifest.json
+│   ├── robots.txt
+│   ├── site.webmanifest
+│   └── favicons.png
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── eslint.config.js
 ├── index.html
-└── pwa-assets/
-src/
-├── components/
-│   ├── TaskList/
-│   └── AddTask/
-├── utils/
-├── assets/
-├── App.jsx
-├── main.jsx
-└── index.css
+├── package-lock.json
+├── package.json
+├── README.md
+├── screenshot.png
+└── vite.config.js
 ```
 
 =======
