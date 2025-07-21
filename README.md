@@ -51,7 +51,7 @@
 
 ```bash
 git clone https://github.com/NikRNN/Todo-App.git
-cd todo-vite
+cd Todo-App
 npm install
 npm run dev
 ```
