@@ -42,8 +42,9 @@
 ## Технологии
 
 - Vite 7
-- React 19 (хуки)
+- React 19 (функциональные компоненты, react-icons, uuid)
 - CSS модули
+- eslint (eslint-plugin-react-hooks, eslint-plugin-react-refresh)
 
 ---
 
